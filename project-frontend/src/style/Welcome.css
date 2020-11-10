@@ -1,0 +1,8 @@
+.main-image img {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+}

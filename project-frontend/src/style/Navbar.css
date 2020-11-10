@@ -1,0 +1,53 @@
+.side-panel {
+    overflow: hidden;
+    background-color: whitesmoke;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    border-bottom: 4px solid lightgray;
+}
+
+.side-panel img {
+    float: left;
+    display: block;
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+  }
+.side-panel a {
+    float: left;
+    display: block;
+    color: #454545;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+  
+  /* Change background on mouse-over */
+  .side-panel a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  .user-profile {
+      float: right;
+      display: block;
+      color: #454545;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      height: auto;
+      width: auto;
+      font-family: 'Open Sans', sans-serif;
+      position: relative;
+  }
+
+  .current-profile {
+    float: right;
+    color: #454545;
+    font-family: 'Open Sans', sans-serif;
+  }
